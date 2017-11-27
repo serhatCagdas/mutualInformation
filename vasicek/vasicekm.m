@@ -1,10 +1,10 @@
-% Author :  by Serhat ÇAğĞDAŞ
+% Author :  by Serhat Ã‡AÃ°ÃDAÃ
 % Reference to Entropy estimators - Improvements and Comparisons
 % Wieczorkowski et al. (1999)
  
 
 
-function h=vasicekm3(v,m,n) 
+function h=vasicekm(v,m,n) 
 
     vals=sort(v);
     
