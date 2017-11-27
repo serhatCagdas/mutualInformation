@@ -1,4 +1,4 @@
-function [ I ] = conditional_dependency4( X )
+function [ I ] = conditional_dependency( X )
 %UNTITLED2 Summary of this function goes here
 %   Detailed explanation goes here
 m = 1;
