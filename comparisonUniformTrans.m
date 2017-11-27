@@ -2,6 +2,9 @@ clear all;
 close all;
 clc;
 
+
+addpath(genpath('conditional'),genpath('Kraskov'),genpath('uvParam'),genpath('vasicek'));
+
 %% var covariance test
 mu = [0 0];
 RL = [0.1 0.3 0.5 0.7 0.9];
@@ -48,7 +51,7 @@ for j = 1:length(NL)
         
         tic
         for k = 1:TN  
-            Icd(i,j,k)   = conditional_dependency4(X{i,j,k} );
+            Icd(i,j,k)   = conditional_dependency(X{i,j,k} );
         end
         time_CF(i,j) = toc;
         
