@@ -51,7 +51,7 @@ for j = 1:length(NL)
         
         tic
         for k = 1:TN  
-            Icd(i,j,k)   = conditional_dependency(X{i,j,k} );
+            Icd(i,j,k)   = conditional_dependency(X{i,j,k},2 );
         end
         time_CF(i,j) = toc;
         
