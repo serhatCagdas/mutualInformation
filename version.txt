@@ -1,0 +1,29 @@
+First Commitment -- 27.11.2017
+----------------------------------------
+comparison of
+-uv parametrization
+-kraskov
+-conditional entropy estimator
+
+two types of random variables chosen
+- Gaussian
+- linear transformed bivariate unform
+
+error fix -- 27.11.2017
+-----------------------------------------
+error fix - first fully functional commitment
+
+
+BRANCH !! -- autoDegreeAndLength
+----------------------------------------------
+----------------------------------------------
+auto degree first -- 28.11.2017
+----------------------------------------------
+Two options for conditional entropy
+- convolutional fitting
+-polynomal fitting
+
+auto poly degree and conv len selection
+
+ps. -> high error rate for this commitment, old version of the method exists as conditional_dependency_old
+
